@@ -1,0 +1,281 @@
+states_countries ={
+    'a': {
+        'alabama': 4.00,		
+        'alaska': 0.00,
+        'arizona': 5.60,	
+        'arkansas': 6.50,
+        'afghanistan': 10.00,	
+        'albania': 20.0,
+        'algeria': 19.0,	
+        'andorra': 4.5,	
+        'angola': 14.0,
+        'antigua and barbuda': 15.0,	
+        'argentina': 21.0,	
+        'armenia': 20.0,	
+        'aruba': 3.0,
+        'australia': 10.0,	
+        'austria': 20.0,		
+        'azerbaijan': 18.0
+    },
+    'b': {
+        'bahamas':	12.0,	
+        'bahrain':	5.0,	
+        'bangladesh':	15.0,	
+        'barbados':	17.5,	
+        'belarus':	20.0,	
+        'belgium':	21.0,	
+        'belize':	12.5,	
+        'benin':	18.0,	
+        'bhutan':	50.0,	
+        'bolivia':	13.0,	
+        'bosnia and herzegovina':	17.0,	
+        'botswana':	12.0,	
+        'brazil':	17.0,	
+        'bulgaria':	20.0,	
+        'burkina faso':	18.0,	
+        'burundi':	18.0	
+    },
+    'c': {
+        'california':	    7.25,	
+        'colorado':	        2.90,	
+        'connecticut':	    6.35,
+        'cambodia':	10.0,	
+        'cameroon':	19.5,	
+        'canada':	5.0,	
+        'cape Verde':	15.0,	
+        'central african republic':	19.0,	
+        'chad':	18.0,	
+        'chile':	19.0,	
+        'china':	13.0,	
+        'colombia':	19.0,	
+        'comoros':	10.0,	
+        'congo':	16.0,	
+        'costa rica':	9.0,	
+        'croatia':	25.0,	
+        'cuba':	20.0,	
+        'cyprus':	19.0,	
+        'czech republic':	21.0	
+    },
+    'd': {
+        'delaware':	        0.00,
+        'd.c.':	            6.00,
+        'denmark':	25.0,	
+        'djibouti':	10.0,	
+        'dominica':	15.0,	
+        'dominican republic':	18.0	
+    },
+    'e': {
+        'ecuador':	12.0,	
+        'egypt':	14.0,	
+        'el salvador':	13.0,	
+        'equatorial guinea':	15.0,	
+        'eritrea':	5.0,	
+        'estonia':	20.0,	
+        'ethiopia':	15.0,	
+        'euro Area':	20.7,	
+        'european union':	21.5	
+    },
+    'f': {
+        'florida':	        6.00,
+        'fiji':	9.0,	
+        'finland':	24.0,	
+        'france':	20.0	
+    },
+    'g': {
+        'georgia':	        4.00,
+        'gabon':	18.0,	
+        'gambia':	15.0,	
+        'georgia':	18.0,	
+        'germany':	19.0,	
+        'ghana':	13.5,	
+        'greece':	24.0,	
+        'grenada':	15.0,	
+        'guam':	2.0,	
+        'guatemala':	12.0,	
+        'guinea':	14.0,	
+        'guyana':	14.0
+    },
+    'h': {
+        'hawaii': 	        4.00,
+        'haiti':	10.0,	
+        'honduras':	15.0,	
+        'hungary':	27.0	
+    },
+    'i': {
+        'idaho':	        6.00,	
+        'illinois':	        6.25,	
+        'indiana':	        7.00,	
+        'iowa':	            6.00,
+        'iceland':	24.0,	
+        'india':	18.0,	
+        'indonesia':	10.0,	
+        'iran':	8.0,	
+        'ireland':	23.0,	
+        'isle of man':	20.0,	
+        'israel':	17.0,	
+        'italy':	22.0,	
+        'ivory coast':	18.0
+    },
+    'j': {
+        'jamaica':	15.0,	
+        'japan':	10.0,	
+        'jordan':	16.0	
+    },
+    'k': {
+        'kansas':	        6.50,	
+        'kentucky':	        6.00
+    },
+    'l': {
+        'louisiana':	    4.45,
+        'laos':	10.0,	
+        'latvia':	21.0,	
+        'lebanon':	11.0,	
+        'lesotho':	15.0,	
+        'liechtenstein':	7.7,	
+        'lithuania':	21.0,	
+        'luxembourg':	17.0	
+    },
+    'm': {
+        'maine':	        5.50,
+        'maryland':	        6.00,	
+        'massachusetts':    6.25,	
+        'michigan':	        6.00,
+        'minnesota':	   6.875,	
+        'mississippi':	    7.00,	
+        'missouri':	       4.225,
+        'montana': 	        0.00,
+        'macedonia':	18.0,	
+        'madagascar':	20.0,	
+        'malawi':	16.5,	
+        'malaysia':	10.0,	
+        'mali':	18.0,	
+        'malta':	18.0,	
+        'mauritania':	16.0,	
+        'mauritius':	15.0,	
+        'mexico':	16.0,	
+        'micronesia':	5.0,	
+        'moldova':	20.0,	
+        'monaco':	20.0,	
+        'mongolia':	10.0,	
+        'montenegro':	21.0,	
+        'morocco':	20.0,	
+        'mozambique':	17.0,	
+        'myanmar':	5.0
+    },
+    'n': {
+        'nebraska':	        5.50,	
+        'nevada':	        6.85,	
+        'new hampshire':    0.00,	
+        'new jersey': 	   6.625,
+        'new mexico': 	   5.125,	
+        'new york':	        4.00,
+        'north carolina':   4.75,	
+        'north dakota':	    5.00,	
+        'namibia':	15.0,	
+        'nepal':	15.0,	
+        'netherlands':	21.0,	
+        'new zealand':	15.0,	
+        'nicaragua':	15.0,	
+        'niger':	19.0,	
+        'nigeria':	7.5,	
+        'north korea':	15.0,	
+        'norway':	25.0	
+    },
+    'o': {
+        'ohio':	            5.75,
+        'oklahoma':	        4.50,	
+        'oregon':	        0.00,	
+        'oman':	5.0
+    },
+    'p': {
+        'pennsylvania':	    6.00,
+        'pakistan':	17.0,	
+        'panama':	7.0,	
+        'papua new guinea':	10.0,	
+        'paraguay':	10.0,	
+        'peru':	18.0,	
+        'philippines':	12.0,
+        'poland':	23.0,	
+        'portugal':	23.0	
+    },
+    'r': {
+        'rhode island':	    7.00,	
+        'republic of the congo':	18.9,	
+        'romania':	19.0,
+        'russia':	20.0,
+        'rwanda':	18.0
+    },
+    's': {
+        'south carolina':	6.00,
+        'south dakota': 	4.50,	
+        'samoa':	15.0,	
+        'saudi arabia':	15.0,	
+        'senegal':	18.0,	
+        'serbia':	20.0,	
+        'seychelles':	15.0,	
+        'sierra leone':	15.0,	
+        'singapore':	7.0,	
+        'slovakia':	20.0,	
+        'slovenia':	22.0,	
+        'solomon islands':	10.0,	
+        'somalia':	10.0,	
+        'south africa':	15.0,	
+        'south korea':	10.0,	
+        'spain':	21.0,	
+        'sri lanka':	8.0,	
+        'st lucia':	15.0,	
+        'sudan':	17.0,	
+        'suriname':	10.0,	
+        'swaziland':	15.0,	
+        'sweden':	25.0,	
+        'switzerland':	7.7	
+    },
+    't': {
+        'tennessee':	    7.00,	
+        'texas':	        6.25,
+        'taiwan':	5.0,	
+        'tajikistan':	18.0,	
+        'tanzania':	18.0,	
+        'thailand':	7.0,	
+        'togo':	18.0,	
+        'tonga':	15.0,	
+        'trinidad and tobago':	12.5,	
+        'tunisia':	19.0,	
+        'turkey':	18.0,	
+        'turkmenistan':	15.0	
+    },
+    'u': {
+        'utah': 	        6.10,
+        'uganda':	18.0,	
+        'ukraine':	20.0,	
+        'united arab emirates':	5.0,	
+        'united kingdom':	20.0,	
+        'united states':	0.0,	
+        'uruguay':	22.0,	
+        'uzbekistan':	15.0	
+    },
+    'v': {
+        'vermont':	        6.00,	
+        'virginia': 	    5.30,	
+        'vanuatu':	15.0,	
+        'venezuela':	16.0,	
+        'vietnam':	10.0	
+    },
+    'w': {
+        'washington':	    6.50,	
+        'west virginia':	6.00,	
+        'wisconsin':	    5.00,	
+        'wyoming':	        4.00      
+    },
+    'y': {
+        'yemen':	5.0
+    },
+    'z': {
+        'zambia':	16.0,	
+        'zimbabwe':	14.5	
+    }
+}
+
+
+
+    
