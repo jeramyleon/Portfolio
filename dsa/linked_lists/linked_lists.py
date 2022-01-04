@@ -27,7 +27,64 @@ def countNodes(head): # return the number of nodes in linked list
         head = head.next
     
     return count
- 
+
+class Node:
+    def __init__(self, data, next=None):
+        self.data = data
+        self.next = next 
+    
+class Linkedlist:
+    def __init__(self):
+        self.head = None 
+    
+    def insert(self, data):
+        newNode = Node(data)
+        if self.head:
+            current = self.head 
+            while current.next:
+                current = current.next
+            current.next = newNode 
+        else:
+            self.head = newNode 
+    
+    def printLL(self):
+        current = self.head
+        while current:
+            print(current.data)
+            current = current.next
+
+jeramy = Linkedlist()
+jeramy.insert(1)
+jeramy.insert(2)
+jeramy.insert(3)
+jeramy.insert(4)
+jeramy.printLL()
+
+class Node:
+    def __init__(self, data, next=None):
+        self.data = data
+        self.next = next 
+
+class Linkedlist:
+    def __init__(self):
+        self.head = None 
+    
+    def insert(self, data):
+        newNode = Node(data)
+        if self.head:
+            current = self.head 
+            while current.next:
+                current = current.next 
+            current.next = newNode
+        else:
+            self.head = newNode 
+    
+    def printLL(self):
+        current = self.head 
+        
+    
+
+
 
 
 
