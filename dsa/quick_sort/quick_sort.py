@@ -1,21 +1,54 @@
-arr = [3, -2, -1, 0, 2, 4, 1]
+def quicksort(arr):
+    elements = len(arr)
+    current_position = 0
+    if elements < 2:
+        return arr
 
-def partition(arr, l, r):
-    pivot = arr[r]
-    i = l - 1
-    for j from l upto r - 1:
-        if arr[j] < pivot:
-            i += 1 
-            swap arr[i] and arr[j]
-    swap arr[i + 1] and arr[j]
-    return i + l
+    for i in range(1, elements): 
+         if arr[i] <= arr[0]:
+              current_position += 1
+              temp = arr[i]
+              arr[i] = arr[current_position]
+              arr[current_position] = temp
 
-def qs(arr, l, r): # l and r will represent index places in a list
-    if l >= r:
-        return 
-    p = partition(arr, l, r) # we are going to write this function 
+    temp = arr[0]
+    arr[0] = arr[current_position] 
+    arr[current_position] = temp 
     
-    qs(arr, l, p - 1)
-    qs(arr, p + 1, r)
+    left = quicksort(arr[0:current_position]) 
+    right = quicksort(arr[current_position+1:elements]) 
+    arr = left + [arr[current_position]] + right 
+    return arr
 
-  
+array = [4, 2, 7, 3, 1, 6]
+print("Original Array: ", array)
+print("Sorted Array: ", quicksort(array))
+
+def quick_sort(arr):
+    elements = len(arr)
+    current_position = 0
+    if elements < 2:
+        return arr
+    
+    for i in range(1, elements):
+        if arr[i] <= arr[0]:
+            current_position += 1
+            temp = arr[i]
+            arr[i] = arr[current_position]
+            arr[current_position] = temp
+    
+    temp = arr[0]
+    arr[0] = arr[current_position]
+    arr[current_position] = temp
+
+    left = quicksort(arr[0:current_position])
+    right = quicksort(arr[current_position+1:elements])
+    arr = left + [arr[current_position]] + right
+    return arr
+
+array = [4, 5, 6, 1, 2, 3, 7, 8, 9, 13, 14, 15, 11, 12, 13]
+print("Original Array: ", array)
+print("Sorted Array: ", quicksort(array))
+
+
+

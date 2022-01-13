@@ -22,7 +22,7 @@ nodeE.prev = nodeD
 def countNodes(head): # return the number of nodes in linked list
     count = 1
 
-    while head.next is not None:
+    while head.next:
         count += 1 
         head = head.next
     
@@ -60,33 +60,38 @@ jeramy.insert(3)
 jeramy.insert(4)
 jeramy.printLL()
 
+
 class Node:
     def __init__(self, data, next=None):
         self.data = data
-        self.next = next 
+        self.next = next
 
 class Linkedlist:
     def __init__(self):
-        self.head = None 
+        self.head = None
     
     def insert(self, data):
         newNode = Node(data)
         if self.head:
-            current = self.head 
+            current = self.head
             while current.next:
                 current = current.next 
-            current.next = newNode
+            current.next = newNode 
         else:
             self.head = newNode 
     
     def printLL(self):
         current = self.head 
-        
-    
+        while current:
+            print(current.data)
+            current = current.next 
+
+kanye = Linkedlist()
+kanye.insert("College Dropout")
+kanye.insert("Late Registration")
+kanye.insert("Graduation")
+kanye.insert("808s & Heartbreak")
+kanye.insert("My Beautiful Dark Twisted Fantasy")
+kanye.printLL()
 
 
-
-
-
-    
-     
